@@ -21,7 +21,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Live site URL: https://cutt.ly/cFE9jIO
+- Live site URL: https://cutt.ly/6FCwD1k
 
 ## My process
 
@@ -32,18 +32,21 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### What I learned
 
+Overlay one image on top of another when the cursor passes over it
+
 ```css
-.cardContainer {
-    max-width: 250px;
-    margin: 0 auto;
-    margin-top: 8%;
-    padding: 16px;
+.nftImages-eyeContainer:hover {
+    cursor: pointer;
+    background-color: hsla(178, 100%, 50%, 0.4);
+    background-image: url('Images/Icon-View.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 ```
 
 ### Useful resources
 
-- [devChallenges](https://devchallenges.io/learn)
+- [FreeCodeCamp](https://www.freecodecamp.org/learn/)
 
 ## Author
 
